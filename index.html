@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bekasi ni cuy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="container">
+      <nav>
+        <div class="container-flex">
+          <div class="brand">
+            <a href="">Planet Bekasi</a>
+          </div>
+          <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div class="bg-sidebar"></div>
+          <ul class="sidebar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#funfact">Funfact</a></li>
+            <li><a href="#language">Language</a></li>
+            <li><a href="#attraction">Tourist attraction</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!--Slider-->
+    <div id="slider">
+      <div class="slide">
+        <img src="img/resized/slider1.jpg" />
+      </div>
+
+      <div class="slide">
+        <img src="img/resized/slider2.jpg" />
+      </div>
+
+      <div class="slide">
+        <img src="img/resized/slider3.jpg" />
+      </div>
+
+      <div class="slide">
+        <img src="img/resized/slider4.jpg" />
+      </div>
+
+      <!--Controlling arrows-->
+      <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i> </span>
+      <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i> </span>
+    </div>
+    <div id="dots-con"><span class="dot" onclick="setSlide(0)"></span><span class="dot" onclick="setSlide(1)"></span><span class="dot" onclick="setSlide(2)"></span><span class="dot" onclick="setSlide(3)"></span></div>
+
+    <!-- Main -->
+
+    <main>
+      <div class="content">
+        <section id="about" class="oddContent">
+          <article class="sejarah">
+            <h2>Tentang Bekasi</h2>
+            <br />
+            <p>
+              Bekasi merupakan salah satu kota yang terdapat di provinsi Jawa Barat, Indonesia. Nama Bekasi berasal dari kata bagasasi yang artinya sama dengan candrabaga yang tertulis di dalam Prasasti Tugu era Kerajaan Tarumanegara, yaitu
+              nama sungai yang melewati kota ini.
+            </p>
+
+            <p>Kota ini merupakan bagian dari Metropolitan Jabodetabek dan menjadi kota satelit dengan jumlah penduduk terbanyak se-Indonesia. Saat ini Kota Bekasi berkembang menjadi tempat tinggal kaum urban dan sentra industri</p>
+          </article>
+          <article class="kota">
+            <header>
+              <!-- <h2>Bekasi</h2> -->
+              <figure>
+                <img src="img/Kota Bekasi.png" alt="Kota Bekasi" />
+                <figcaption></figcaption>
+              </figure>
+            </header>
+          </article>
+        </section>
+
+        <section id="funfact" class="evenContent">
+          <article class="sejarah">
+            <h2>FunFact</h2>
+            <br />
+            <p>
+              1. Punya Stadion Terbesar Kota Bekasi memiliki stadion megah bernama Stadion Patriot Chandrabhaga di Jalan KH Noer Ali. Stadion bertaraf internasional ini merupakan salah satu stadion terbesar setelah Stadion Utama Gelora Bung
+              Karno, Senayan dan mampu menampung 30.000 orang. Daya tampung tersebut adalah paling besar dibandingkan stadion yang dimiliki Kota Bogor, Depok, Serpong atau Tangerang. Pembangunan Stadion Patriot Chandrabhaga menelan dana
+              sebesar Rp234 miliar.
+            </p>
+            <p>
+              2. Punya Flyover Paling Keren Flyover KH Noer Ali Summarecon Bekasi memiliki peranan penting bagi perkembangan infrastruktur kawasan Bekasi. Pembangunan flyover ini memberikan kontribusi yang bermanfaat bagi masyarakat dan
+              daerah setempat. Flyover Summarecon sebagai overpass yang menghubungkan Kota Bekasi Selatan dengan Kota Bekasi Utara. Panjang flyover 1 km membentang indah dari Jalan Ahmad Yani sebagai jalan utama ke jalur kereta api di
+              bawahnya. Pembangunan flyover menelan anggaran sebesar Rp200 miliar. Flyover ini telah mendapatkan penghargaan kelas dunia “World Silver Winner” kategori Public Infrastructure or Amenities pada 2017 lalu.
+            </p>
+            <p>
+              3. Landmark Piramida Terbalik ala Museum Louvre Paris Selain flyover cantik, ada pula spot lainnya di Bekasi yang menarik perhatian publik. Bekasi menghadirkan sebuah bangunan berbentuk piramida terbalik di kawasan Summarecon
+              bak Museum Louvre di Paris, Prancis. Dikutip dari summareconbekasi.com, piramida terbalik ini tingginya mencapai 17 meter. Angka tersebut melambangkan perjalanan Kota Summarecon di Bekasi yang seiring berjalannya waktu semakin
+              berkembang dan kian besar serta mampu memberikan kontribusi positif bagi perusahaan dan lingkungan sekitar.
+            </p>
+            <p>
+              4. Banyak Kawasan Industri Kota Bekasi maupun Kabupaten Bekasi mempunyai kawasan industri yang paling banyak. Di Kabupaten Bekasi, terdapat 10 kawasan industri yang menempati lahan dengan luas keseluruhan mencapai 9.496
+              hektare. Kawasan industri di Bekasi dibangun dengan konsep industrial estate berupa kota mandiri dengan fasilitas pendukung yang lengkap. Di Kota Bekasi, menurut Sensus Ekonomi 2016 (SE 2016) tercatat sebanyak 203.056 unit
+              usaha/perusahaan non-pertanian.
+            </p>
+          </article>
+        </section>
+
+        <section id="language" class="oddContent">
+          <article class="sejarah">
+            <h2>Bahasa bekasi</h2>
+            <br />
+            <p>
+              Dalam perbincangan anak milenial di medsos, Bekasi kerap menjadi bahan candaan, Pasalnya bahasa bekasi merupakan campuran dari beberapa suku, di antaranya Betawi, Sunda, hingga Jawa. dikarenakan sebagian besar penduduknya
+              memang banyak dari ketiga suku itu, terutama Betawi dan Sunda. Dari pergaulan sehari-hari, akhirnya muncul kosakata baru yang merupakan bahasa campuran. Selain itu, Bekasi memiliki ragam kosakata unik yang kemudian menjadi
+              ciri khas mereka. Seperti halnya kosa kata bahasa gaul anak bekasi yang unik dan bikin mikir keras.
+            </p>
+            <p>Salah satu contohnya adalah sabi alias bisa, orang-orang bekasi emang agak aneh. Berikut bebera rumus yang mungkin akan penting kalian tahu sebagai orang asing agar dapat mudah memahami bahasa gaul orang bekasi :</p>
+
+            <span class="quote"> Rumus 1 : membaca kata secara terbalik, misal selow jadi woles, tidur jadi rudit, gue jadi eug </span><br />
+            <span class="quote">
+              Rumus 2 : memotong kata menjadi setengah dan menambahkan kata ok di pertengahan kata tersebut, misalnya kata duit ambil 'du' saja lalu tambahkan ok ditengah-tengah jadi 'doku', juta jadi jokut, berak jadi boker.
+            </span>
+
+            <br />
+
+            <p>Selain menggunakan rumus diatas ada benyak kata lain yang tidak menggunakan rumus, kata-kata lainnya bisa dipelajari lebih lanjut<a href="https://curcol.co/kamus-bahasa-bekasi-lengkap-18741"> disini! </a></p>
+          </article>
+        </section>
+
+        <section id="attraction" class="evenContent">
+          <article class="sejarah">
+            <h2>Tempat Wisata</h2>
+            <br />
+            <p>
+              Flyover KH Noer Ali Summarrecon Bekasi ini punya peranan penting bagi perkembangan kawasan ini. Asal tahu saja, tanpa flyover ini untuk mencapai Kota Summarecon Bekasi maka harus lewat Jalan Perjuangan yang penuh perjuangan
+              karena sangat macet. Flyover yang jadi ikon Bekasi ini melintas di atas jalur kereta api dengan bentang jembatan sepanjang 130 meter. Dan yang menarik, flyover ini dibangun tanpa tiang penyangga dan merupakan salah satu
+              jembatan dengan bentang terpanjang di Indonesia. Temukan juga beraga
+            </p>
+          </article>
+        </section>
+
+        <aside>
+          <h2>Creator:</h2>
+          <div class="aside-content">
+            <img src="img/profile.jpg" alt="profile picture" />
+            <div class="profile">
+              <h1>Muhammad Haikal Fuady</h1>
+              <p>Human from bekasi</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer>
+      <p>Belajar tentang bekasi kuy &#169; 2023, Haikal</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jees.js"></script>
+  </body>
+</html>
